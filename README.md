@@ -1,4 +1,8 @@
 # Ralph's vimrc
+ install:
+ 	git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+	vim +PluginInstall +qall
+	The installation should start
  This is my vimrc, reference to many well-done vimrc.
  There may be lack of some functions for no usage now.
  plugin used
